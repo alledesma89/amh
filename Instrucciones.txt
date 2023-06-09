@@ -1,0 +1,18 @@
+ Instrucciones para desplegar la aplicación en Vuestro servidor:
+
+
+
+1.Clona el repositorio del proyecto en tu servidor utilizando el comando git clone <URL_del_repositorio>. Asegúrate de tener Git instalado en tu servidor.
+Navega al directorio del proyecto ejecutando cd AMH.
+2.Asegúrate de tener Node.js instalado en tu servidor.
+3.Ejecuta el comando npm install para instalar las dependencias del proyecto.
+4.Configura las variables de entorno en un archivo .env siguiendo el ejemplo del archivo .env.example. Asegúrate de configurar las variables adecuadas para tu entorno de servidor.
+5.Ejecuta el comando npm run build para compilar la aplicación para producción.
+6.Configura tu servidor web (por ejemplo, Apache o Nginx) para servir los archivos estáticos generados en la carpeta build del proyecto.
+7.Asegúrate de que el servidor web esté configurado correctamente para enrutar las solicitudes a index.html y permitir el enrutamiento adecuado de la aplicación de una sola página (SPA).
+8.Reinicia tu servidor web para aplicar los cambios de configuración.
+9. Accede a la URL de tu servidor en el navegador para ver la aplicación en funcionamiento.
+
+
+Recordad que estas instrucciones son generales y pueden variar dependiendo de vuestro entorno de servidor específico. 
+Asegúrate de tener los permisos adecuados y de seguir las mejores prácticas de seguridad al configurar tu servidor.
